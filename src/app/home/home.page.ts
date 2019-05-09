@@ -13,7 +13,7 @@ const Obj={
     {   
   name:'ange',
   age: 3,
-  food: 'pesce'
+  food: 'ananas'
     }
 ],
 
@@ -21,7 +21,7 @@ const Obj={
   {   
     name:'pp',
     age: 5,
-    food: 'banana'
+    food: 'mela'
       }
 ]
   
@@ -37,3 +37,5 @@ const ObjString = JSON.stringify(Obj);
 console.log(ObjString);
 
 console.log(JSON.parse(ObjString));
+
+
