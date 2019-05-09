@@ -40,11 +40,11 @@ export class impostaOrario{
           this.httpClient.post(url,body)
           .subscribe(
              (response) => {
-              GlobalDataService.log( 0,url, response);
-              resolve(reponse);
+            //   GlobalDataService.log( 0,url, response);
+              resolve(response);
             },
              (err) => {
-              GlobalDataService.log( 2, 'Error', err);
+            //   GlobalDataService.log( 2, 'Error', err);
               reject(err);
             });
         });
